@@ -1,0 +1,20 @@
+ Imagine you are developing a web application that manages a car management system in showroom. 
+ THe application has a database with two tables, Car and customer. 
+ The car has columns like carid,model_name,year_manufacture,speed,price,custid. 
+ The customer table has columns, custid,customer_name,address,age.
+ 
+ Your task is to create a Nodekjs server that interacts with db using sql queries to perform the following operrations
+ 1Retriev the list of all cars in showroom
+ 2Retreive the list of all cars in those are manufactited in year 2019
+ 3 add new car
+ 4 delete a car whivch is very old model
+ 5 display latest 5 cars
+ How would you structure sql queries in your nodejs application to achieve these operations efficiently?
+ 
+INSERT INTO customer (custid,custname, addr, age)
+VALUES 
+  (1, "kushal", "dharwad",20);
+
+INSERT INTO customer (custid,custname, addr, age)
+VALUES 
+  (2, "sumit", "hubli",20);
